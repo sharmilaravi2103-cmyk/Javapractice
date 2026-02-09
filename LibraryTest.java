@@ -67,7 +67,7 @@ public class LibraryTest
 
 
         LibraryItem dvd = new DVD();
-        System.out.println("Enter the book Title:");
+        System.out.println("Enter the DVD Title:");
         dvd.title = sha.nextLine();
         System.out.println("Enter the days late:");
         dvd.dayslate = sha.nextInt();
